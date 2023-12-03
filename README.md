@@ -4,6 +4,22 @@ Este repositório contém o backend de uma aplicação para predição de cânce
 
 Desenvolvido como parte do MVP para o módulo "Qualidade de Software, Segurança e Sistemas Inteligentes" na pós-graduação em Engenharia de Software da PUC-Rio.
 
+## Rotas das APIs existentes neste backend
+_GET /_
+Descrição: Redireciona para a página de documentação escolhida (Swagger, Redoc ou RapiDoc).
+
+_GET /pacientes_
+Descrição: Recupera todos os pacientes registrados na base de dados.
+
+_POST /paciente_
+Descrição: Adiciona um novo paciente e realiza a previsão do diagnóstico com um modelo de machine learning treinado.
+
+_GET /paciente_
+Descrição: Busca um paciente cadastrado na base pelo nome.
+
+_DELETE /paciente_
+Descrição: Deleta um paciente existente na base pelo nome.
+
 ---
 ## Como executar local
 
