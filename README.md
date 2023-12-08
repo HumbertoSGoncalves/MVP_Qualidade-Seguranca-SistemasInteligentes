@@ -47,3 +47,11 @@ Desta forma o servidor é reinicia automaticamente após mudanças no código fo
 4. Acesse o [http://localhost:5000/#/](http://localhost:5000/#/) no navegador de preferência para verificar a API em execução.
 
 Posteriormente, basta testar quaisquer rotas da API que desejar para testar o sistema. Cada rota tem sua devida descrição na documentação acessada.
+
+## Teste automatizado
+Este repositório incorpora um sistema de teste automatizado para garantir a acurácia, recall, precisão, e F1, do modelo de dados implementado. 
+Para executar os testes, basta executar no terminal o pytest através da inserção do código abaixo.
+```
+pytest
+```
+O Pytest irá automaticamente descobrir e executar os casos de teste devido ao nome do arquivo correspondente, fornecendo a avaliação do modelo preditivo. 
