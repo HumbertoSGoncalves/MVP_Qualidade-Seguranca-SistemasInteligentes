@@ -30,7 +30,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.git
 
 2. Atualizar todas as libs python listadas conforme o arquivo `requirements.txt`. Ou seja, execute, no ambiente escolhido, a instalação através do comando: 
 ```
-pip install -r requirements.txt;
+pip install -r requirements.txt
 ```
 3. Para executar a API: 
 ```
